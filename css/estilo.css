@@ -1,0 +1,103 @@
+#container{
+    text-align:center;
+    visibility:visible;
+}
+body{
+    background-image:url(../img/background.png);
+}
+form{
+    position:absolute;
+    top:38%;
+    left:40%;
+    color:white;
+    text-align:center;
+    font-size:120%;
+}
+#calc{
+    background-image:url(../img/calculate\ bttn.png);
+    cursor:pointer;
+    color:none;
+    border:none;
+    width:120px;
+    height:40px;
+}
+#inBaseDmg, #inBuff, #inInsp, #inMultp{
+    background-color:rgb(35, 35, 35);
+    border:2px solid rgb(24, 24, 24);
+}
+#inBaseDmg, #inBuff, #inInsp, #inMultp, #resultado{
+    color:rgb(218, 216, 216);
+}
+
+#calc:hover{
+    background-image:url(../img/calculate\ bttn\ select.png)
+}
+
+/*-------------------------------------
+.blur{
+    filter:blur(7px);
+    position:absolute;
+    top:32%;
+    left:45%;
+    pointer-events:none;
+    transition:0.5s;
+}
+
+.bgBlur{
+    background-image:url(../img/background\ charact.png);
+    transition:0.5s;
+}
+
+#characters{
+    width:50%;
+    height:50%;
+    text-align:center;
+}
+img{
+    width:20%;
+}
+#heidi{
+    position:absolute;
+    display:inline-block;
+    top:32%;
+    left:10%;
+    cursor:pointer;
+}
+#skalter{
+    position:absolute;
+    display:inline-block;
+    top:32%;
+    left:42%;
+    cursor:pointer;
+}
+#sora{
+    position:absolute;
+    display:inline-block;
+    top:32%;
+    left:70%;
+    cursor:pointer;
+}
+
+.heidiSelect{
+    position:absolute;
+    display:inline-block;
+    top:32%;
+    left:10%;
+    transform:translateY(10px)
+}
+
+#characters{
+    visibility:hidden;
+}
+/*--------------------------------
+#skills{
+    visibility:hidden;
+}
+#skills img{
+    width:10%;
+}
+#heidi1, #heidi2, #skalter2, #skalter3, #sora2{
+    position:absolute;
+    top:44%;
+}
+*/
